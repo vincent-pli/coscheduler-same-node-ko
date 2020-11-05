@@ -23,7 +23,7 @@ spec:
           name: scheduler-config
       containers:
       - name: scheduler-ctrl
-        image: ko://github.com/tektoncd/experimental/scheduler/cmd
+        image: ko://github.com/vincent-pli/coscheduler-same-node-ko/cmd
         imagePullPolicy: Always
         args:
         - kube-scheduler
