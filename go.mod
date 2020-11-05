@@ -1,4 +1,4 @@
-module github.com/tektoncd/experimental/scheduler
+module github.com/vincent-pli/coscheduler-same-node-ko
 
 go 1.13
 

@@ -23,7 +23,7 @@ import (
 
 	"k8s.io/kubernetes/cmd/kube-scheduler/app"
 
-	"github.com/tektoncd/experimental/scheduler/pkg/coscheduler"
+	"github.com/vincent-pli/coscheduler-same-node-ko/pkg/coscheduler"
 )
 
 func main() {
